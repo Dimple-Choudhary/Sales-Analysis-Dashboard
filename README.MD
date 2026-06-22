@@ -1,112 +1,124 @@
 # 📊 Sales Analysis Dashboard
 
-An end-to-end Sales Analysis Dashboard built using **Python, SQL, Pandas, SQLite, Plotly, and Streamlit** to analyze sales data and provide interactive business insights.
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://sales-analysis-dashboard-y4bawvuautydudtv5pzpie.streamlit.app/)
 
-```markdown
-# 📊 Sales Analysis Dashboard
----
-🚀 **Live Demo:**  
+🚀 **Live Application:**
 https://sales-analysis-dashboard-y4bawvuautydudtv5pzpie.streamlit.app/
 
-📂 **GitHub Repository:**  
-https://github.com/YOUR_USERNAME/Sales-Analysis-Dashboard
 ---
 
+## 📌 Overview
 
+An end-to-end interactive Sales Analysis Dashboard built using **Python, Pandas, SQL, SQLite, Plotly, and Streamlit**.
 
-# 🚀 Features
-
-* KPI Cards
-
-  * Total Revenue
-  * Total Orders
-  * Top Product
-  * Best Month
-
-* Interactive Charts
-
-  * Revenue by Product
-  * Monthly Revenue Trend
-  * Product Revenue Share
-  * Quantity Sold by Product
-
-* Interactive Tables
-
-  * Top 3 Products
-  * Top 3 Months
-
-* Sidebar Product Filter
-
-* Modular Code Structure
+The project analyzes sales data, generates business insights, and presents them through interactive charts, KPI cards, tables, and filters.
 
 ---
 
-# 🛠 Tech Stack
+## ✨ Features
 
-* Python
-* Pandas
-* SQL
-* SQLite
-* Plotly
-* Streamlit
-
----
-
-# 📁 Project Structure
-
-```text
-Sales_Analysis_Project
-│
-├── app.py
-├── analysis.py
-├── requirements.txt
-├── README.md
-├── data
-│   └── sales.csv
-├── charts
-├── src
-│   ├── __init__.py
-│   ├── utils.py
-│   ├── sql_queries.py
-│   └── visualizations.py
-└── tests
-```
-
----
-
-# 📈 Dashboard Components
-
-### KPI Cards
+### 📈 KPI Cards
 
 * Total Revenue
 * Total Orders
 * Top Product
 * Best Month
 
-### Charts
+### 📊 Interactive Charts
 
 * Revenue by Product
 * Monthly Revenue Trend
-* Product Revenue Share Pie Chart
+* Product Revenue Share (Pie Chart)
 * Quantity Sold by Product
 
-### Tables
+### 📋 Tables
 
 * Top 3 Products
 * Top 3 Months
 
-### Filters
+### 🎛 Filters
 
 * Product Filter
 
+### 🏗 Modular Architecture
+
+* Reusable Functions
+* Separate SQL Layer
+* Separate Visualization Layer
+* Clean Streamlit UI
+
 ---
 
-# ⚙️ Installation
+## 🛠 Tech Stack
+
+| Category        | Tools           |
+| --------------- | --------------- |
+| Language        | Python          |
+| Data Analysis   | Pandas          |
+| Database        | SQLite          |
+| Query Language  | SQL             |
+| Visualization   | Plotly          |
+| Dashboard       | Streamlit       |
+| Version Control | Git & GitHub    |
+| Deployment      | Streamlit Cloud |
+
+---
+
+## 📁 Project Structure
+
+```text
+Sales_Analysis_Project
+│
+├── assets
+├── charts
+├── data
+│   └── sales.csv
+│
+├── src
+│   ├── __init__.py
+│   ├── utils.py
+│   ├── sql_queries.py
+│   └── visualizations.py
+│
+├── .gitignore
+├── app.py
+├── analysis.py
+├── README.md
+├── requirements.txt
+└── sales.db
+```
+
+---
+
+## 📊 Dashboard Components
+
+### KPI Cards
+
+* 💰 Total Revenue
+* 📦 Total Orders
+* 🏆 Top Product
+* 📅 Best Month
+
+### Charts
+
+* 📈 Revenue by Product
+* 📉 Monthly Revenue Trend
+* 🥧 Product Revenue Share
+* 📦 Quantity Sold by Product
+
+### Tables
+
+* 🏆 Top 3 Products
+* 📅 Top 3 Months
+
+---
+
+## ⚙ Installation
 
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/YOUR_USERNAME/Sales-Analysis-Dashboard.git
 ```
 
 Install dependencies:
@@ -115,7 +127,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run the dashboard:
+Run the application:
 
 ```bash
 streamlit run app.py
@@ -123,56 +135,65 @@ streamlit run app.py
 
 ---
 
-# 🏗 Architecture
+## 🏗 Architecture
 
-* `app.py`
+### app.py
 
-  * Streamlit User Interface
+Contains Streamlit UI components.
 
-* `utils.py`
+### utils.py
 
-  * Business Logic and Pandas Functions
+Contains business logic and Pandas functions.
 
-* `sql_queries.py`
+### sql_queries.py
 
-  * SQL Queries
+Contains SQL queries for analysis.
 
-* `visualizations.py`
+### visualizations.py
 
-  * Plotly Charts
-
-* `analysis.py`
-
-  * Data Analysis
+Contains Plotly chart functions.
 
 ---
 
-# 🎯 Key Learnings
+## 🎯 Key Learnings
 
 * Data Analysis using Pandas
 * SQL and SQLite Integration
-* Interactive Data Visualization using Plotly
-* Dashboard Development with Streamlit
-* Modular Code Organization
-* Separation of Concerns
+* Interactive Visualization with Plotly
+* Dashboard Development using Streamlit
+* Modular Code Structure
 * Reusable Functions
+* Separation of Concerns
+* Git and GitHub Workflow
+* Deployment on Streamlit Cloud
 
 ---
 
-# 🔮 Future Improvements
+## 🚀 Live Demo
+
+https://sales-analysis-dashboard-y4bawvuautydudtv5pzpie.streamlit.app/
+
+---
+
+## 🔮 Future Improvements
 
 * Multiple Filters
 * Date Range Selection
-* Export to CSV
-* User Authentication
+* Download CSV Feature
+* Export Reports
 * PostgreSQL Integration
-* Cloud Deployment
+* User Authentication
+* Advanced Analytics
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-Dimple Choudhary
+**Dimple Choudhary**
 
 GitHub:
 https://github.com/Dimple-Choudhary
+
+---
+
+⭐ If you found this project useful, please consider giving it a star.
