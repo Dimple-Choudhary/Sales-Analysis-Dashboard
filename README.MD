@@ -14,8 +14,6 @@ https://github.com/YOUR_USERNAME/Sales-Analysis-Dashboard
 
 ---
 
-An end-to-end Sales Analysis Dashboard built using Python, SQL, Pandas, SQLite, Plotly, and Streamlit.
-```
 
 
 # 🚀 Features
