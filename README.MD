@@ -3,6 +3,20 @@
 An end-to-end Sales Analysis Dashboard built using **Python, SQL, Pandas, SQLite, Plotly, and Streamlit** to analyze sales data and provide interactive business insights.
 
 ---
+```markdown
+# 📊 Sales Analysis Dashboard
+
+🚀 **Live Demo:**  
+https://sales-analysis-dashboard-y4bawvuautydudtv5pzpie.streamlit.app/
+
+📂 **GitHub Repository:**  
+https://github.com/YOUR_USERNAME/Sales-Analysis-Dashboard
+
+---
+
+An end-to-end Sales Analysis Dashboard built using Python, SQL, Pandas, SQLite, Plotly, and Streamlit.
+```
+
 
 # 🚀 Features
 
